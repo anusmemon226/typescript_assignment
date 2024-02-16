@@ -9,7 +9,6 @@ function make_sandwich(items){
         }
     }
 }
-
 make_sandwich(["Sauce","Cheese","Chicken"])
 make_sandwich(["Tomato","Mayo","Chicken"])
 make_sandwich(["Lettuce","Cheese","Beef"])
