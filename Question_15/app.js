@@ -1,4 +1,10 @@
-var guestList = ["Mr Irfan", "Mr Shahid Afridi", "Mr Imran Khan"];
+var guestList = ["Mr Ahmed", "Mr Shahid Afridi", "Mr Imran Khan"];
+for (var i = 0; i < guestList.length; i++) {
+    console.log("".concat(guestList[i], "! you are invited for dinner at my farm house."));
+}
+console.log("".concat(guestList[0], " can't come for dinner"));
+guestList[0] = "Mr Irfan";
+console.log("Second Set of invitation messages");
 for (var i = 0; i < guestList.length; i++) {
     console.log("".concat(guestList[i], "! you are invited for dinner at my farm house."));
 }
