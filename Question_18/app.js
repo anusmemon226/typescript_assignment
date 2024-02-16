@@ -1,0 +1,10 @@
+var places = ["Australia", "Saudia Arabia", "America", "Turkey", "Switzerland"];
+console.log("Original Array Order : ", places);
+console.log("Alphabetically Sorted : ", places.slice().sort());
+console.log("Still in Original Order : ", places);
+console.log("Reverse Alphabetically Order : ", places.slice().sort().reverse());
+console.log("Original Array Order : ", places);
+console.log("Order has changes : ", places.reverse());
+console.log("Order has back to its original order : ", places.reverse());
+console.log("Sorted order : ", places.sort());
+console.log("Reverse Sorted Order : ", places.sort().reverse());
